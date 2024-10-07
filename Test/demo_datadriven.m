@@ -8,6 +8,9 @@ addpath('../DataDriven');
 load('trainingData.mat')
 load('utah.mat') % test data
 
+%% Add MARS package to the path
+addpath('D:\Academic\METU\Thesis\Code\ECGITool-main\Test');
+
 %% generate model for EGM 10
 earthModel_10 = DdModelingMars(training.Ep(:,10), training.Bsp);
 % predict EGM 20 corresponding to from new Bspm

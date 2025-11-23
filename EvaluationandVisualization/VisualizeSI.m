@@ -103,7 +103,7 @@ disp(meanStdSpatialREs);
 % Expects: temporalCCs, spatialCCs, temporalREs, spatialREs  (numFiles x numBeats)
 
 % 1) EDIT THESE labels (one per file/intervention)
-interventionLabels = {'20|275','5|350','15|275','5|325'};
+interventionLabels = {'20|350','15|350','10|350','5|350'};
 
 % Basic check
 if numel(interventionLabels) ~= size(temporalCCs,1)
